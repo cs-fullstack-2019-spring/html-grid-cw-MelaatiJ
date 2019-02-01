@@ -1,0 +1,59 @@
+header
+{
+    background:lightgray;
+    font-weight: bold;
+    width: 100%;
+    padding:30px
+/*this changes the header to be grey on the back ground*/
+}
+.container
+{
+    display: inline;
+    text-decoration: white underline;
+    background: blue;
+    /*this changes the buttons to make it inline and white */
+}
+
+aside
+{
+    font-weight: bold;
+    padding: 30px;
+    grid-template-rows:1fr;
+    margin-right:49% ;
+    grid-template-areas: 1fr;
+/*makes the font bold and moves it to the right*/
+}
+
+footer
+{
+    background:lightgray;
+    font-weight: bold;
+    grid-area:footer1;
+    padding:30px;
+/*made my footer light grey and bold with some padding*/
+}
+
+article
+{
+    padding: 30px;
+    font-weight: bold;
+}
+/*added some space inside*/
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+    color:white;
+}
+
+.container2
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+
+
+}
